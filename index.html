@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width,intial-scale=1.0">
+    <link rel="stylesheet" href="formc.css">
+    <title>Registration Form Page</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Registration Form</h1>
+        <form action="#" onsubmit="return checkdata()">
+            <div class="mdetails">
+                <div class="user">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter Your Name" required>
+                </div>
+                <div class="user">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Enter Your Email Address" required>
+                </div>
+                <div class="user">
+                    <span class="details">User Name</span>
+                    <input type="text" placeholder="Enter Your Username" required>
+                </div>
+                <div class="user">
+                    <span class="details">Phone No:</span>
+                    <input type="text" placeholder="+91" required>
+                </div>
+                <div class="user">
+                    <span class="details">Password</span>
+                    <input type="text" placeholder="Enter Your Password" required>
+                </div>
+                <div class="user">
+                    <span class="details">Confirm Password</span>
+                    <input type="text" placeholder="Confirm Your Password" required>
+                </div>
+                <div class="gender">
+                    <h5>Gender</h5>
+                    <div class="category">
+                        <input type="radio" name="gender" value="Male" required>Male
+                        <input type="radio" name="gender" value="Female" required>Female
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+        <script src="checkdata.js"></script>
+    </div>
+</body>
+
+</html>
